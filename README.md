@@ -8,6 +8,10 @@ HyperBoreSplitter is a smart contract for automated splitting of funds and fees 
 - Withdraw funds and distribute them among payees
 - DAO multisig address management
 
+## Variants
+
+There is another contract in this repo, `Splitter-Treasury`, that divorces payment and contract management. The managing DAO can indicate a treasury address for the purposes of receiving the remainder of value owned by the contract, otherwise, contracts are identical.
+
 ## Caveats
 
 - Currently, there are no tests on the splitter contract.
